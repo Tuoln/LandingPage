@@ -1,9 +1,21 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    color: white;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 70px;
+    padding: 10px 70px;
     background-color: #1F2937;
     align-items: center;
+    margin: -25px;
+}
+
+.left.logo {
+    background-color: black;
+
 }
 
 .left {
@@ -31,3 +43,45 @@ li {
     width: 40px;
     height: 40px;
 }
+
+.description {
+    color: white;
+    display: flex;
+    padding: 40px 30px;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.description img {
+    width: 500px;
+    height: 350px;
+}
+
+.the-word {
+    color: #3882f6;
+}
+
+.center-left {
+    width: 450px;
+}
+
+.center-left h1 {
+    font-size: 40px;
+}
+
+.center-left p {
+    font-size: 18px;
+}
+
+.signUp {
+    background-color: #3882f6;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
