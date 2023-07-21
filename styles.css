@@ -13,15 +13,15 @@ body {
     margin: -25px;
 }
 
-.left.logo {
-    background-color: black;
-
+.logo {
+    background-color: transparent;
+    width: 80px;
 }
 
 .left {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
     color: white;
     font-size: 24px;
 }
@@ -39,11 +39,6 @@ li {
     
 }
 
-.header img {
-    width: 40px;
-    height: 40px;
-}
-
 .description {
     color: white;
     display: flex;
@@ -56,6 +51,7 @@ li {
 .description img {
     width: 500px;
     height: 350px;
+    border-radius: 30px;
 }
 
 .the-word {
@@ -82,6 +78,36 @@ li {
     font-weight: bold;
     font-size: 18px;
 }
+
+.recommendations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.the-series {
+    display: flex; 
+    gap: 50px;
+}
+
+.recommendations h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.recommendations img,
+.recommendations p {
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.hot {
+    color: red;
+}
+
 
 
 
