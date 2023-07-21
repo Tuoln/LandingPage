@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+    color: white;
+    
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+}
