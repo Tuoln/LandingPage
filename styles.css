@@ -121,7 +121,7 @@ li {
 }
 
 .quote-text {
-    width: 1100px;
+    width: 800px;
 }
 
 .quote h3 {
@@ -129,6 +129,46 @@ li {
     margin-right: 30px;
     font-size: 30px;
 }
+
+.signUpBox {
+    background-color: #3882f6;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 350px;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-text h3 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.box-text p {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.signUpBox .signUp {
+  height: 40px;
+  align-self: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 20px;
+    background-color: #1D5D8F;
+}
+
+
 
 
 
