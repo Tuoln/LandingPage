@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #1F2937;
+    background-color: #1D5D9B;
     color: white;
 }
 
@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 70px;
-    background-color: #1F2937;
+    background-color: #1D5D9B;
     align-items: center;
     margin: -25px;
 }
@@ -79,11 +79,16 @@ li {
     font-size: 18px;
 }
 
+
 .recommendations {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+}
+
+.hot {
+    color: red;
 }
 
 .the-series {
@@ -104,8 +109,25 @@ li {
     border-radius: 25px;
 }
 
-.hot {
-    color: red;
+.quote {
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ECF8F9;
+    margin: 60px;
+    border-radius: 40px;
+    color: black;
+}
+
+.quote-text {
+    width: 1100px;
+}
+
+.quote h3 {
+    align-self: flex-end;
+    margin-right: 30px;
+    font-size: 30px;
 }
 
 
